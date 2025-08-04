@@ -10,7 +10,7 @@
       background: url('bg.png') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Arial Black', sans-serif;
-      color: #fff;
+      color: #000;
       text-align: center;
       height: 100vh;
       overflow: hidden;
@@ -22,9 +22,17 @@
       box-sizing: border-box;
     }
     img {
-      width: 300px;
+      width: 500px;
       height: auto;
       margin-bottom: 20px;
+    }
+    .text-box {
+      background: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 20px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      max-width: 90%;
     }
     h1 {
       font-size: 48px;
@@ -79,9 +87,12 @@
 <body>
 
   <img src="bihcoin.png" alt="Bihcoin" />
-  <h1>BIHCOIN</h1>
-  <p>veiny ahh dih to yo crack buy 6 million bihcoin</p>
-  <p>CA: SOON</p>
+
+  <div class="text-box">
+    <h1>BIHCOIN</h1>
+    <p>veiny ahh dih to yo crack buy 6 million bihcoin</p>
+    <p>CA: SOON</p>
+  </div>
 
   <div class="buttons">
     <a class="btn" href="https://pump.fun" target="_blank">BUY ON PUMP.FUN</a>
